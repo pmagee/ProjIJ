@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% block title %}Edit Successful{% endblock title %}
+{% block content %}
+<div class="container">
+<br>
+<h1 class="text-center my_title">Edit Successful</h1>
+<br>
+
+<h2 class="my_title"> Updated Reservation Details </h2>
+<p><strong>Name:</strong> {{edited_reservation.name }}</p>
+<p><strong>Email:</strong> {{edited_reservation.email }}</p>
+<p><strong>Phone:</strong> {{edited_reservation.phone }}</p>
+<p><strong>Number of Persons:</strong> {{edited_reservation.number_of_persons }}</p>
+<p><strong>Date:</strong> {{edited_reservation.Date }}</p>
+<p><strong>Time:</strong> {{edited_reservation.time }}</p>
+<p><strong>Message:</strong> {{edited_reservation.message }}</p>
+
+
+<a href="{% url 'edit_reservation' reservation_id=edited_reservation.id %}" class="btn btn-dark">Edit Again</a>
+
+
+</div>
+<br>
+{% endblock content %}

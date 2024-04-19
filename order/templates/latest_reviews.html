@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+{% block title %}
+Reviews | Spice Garden
+{% endblock %}
+{% block content %}
+<div class="container">
+    <br>
+    <h1 class="text-center my_title">Customer Reviews</h1>
+    <br>
+    <div class="list-group">
+      {% for feedback in latest_feedbacks %}
+      <div class="list-group-item">
+        <h4>{{ feedback.customer_name }}</h4>
+        <h6>Rating: {{ feedback.rating }}/5</h6>
+        <p>{{ feedback.feedback_text }}</p>
+        <p>{{ feedback.timestamp }}</p>
+      </div>
+      {% endfor %}
+    </div>
+</div>
+
+{% endblock %}

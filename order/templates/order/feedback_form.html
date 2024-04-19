@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+Post Review | Spice Garden
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <br>
+            <h1 class="text-center my_title">Post a Review</h1>
+            <br>
+            <form method="post" class="text-center">
+                {% csrf_token %}
+                <div class="form-group">
+                    <label for="customer_name">Name:</label>
+                    {{ form.customer_name }}
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="feedback_text">Review:</label>
+                    {{ form.feedback_text }}
+                </div>
+                <br>
+                <div class="form-group">
+                    <label for="rating">Rating:</label>
+                    {{ form.rating }}
+                </div>
+                <br>
+                <div class="text-center">
+                    <button class="btn btn-dark" type="submit">Submit</button>
+                </div>
+                <br>
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}

@@ -1,0 +1,26 @@
+{% extends "base.html" %}
+{% load static %}
+{% block title %}
+Thanks | Spice Garden
+{% endblock %}
+{% block content %}
+<div class="container">
+    <div class="text-center">
+        <br>
+        <br>
+        <h1 class="text-center my_title">
+            Thanks for placing your order
+        </h1>
+        <br>
+        <br>
+        <p>Your order number is: <b>{{ customer_order.id }}</b></p>
+        <br>
+        <p>
+            We have received your order and will begin processing right away. For your records, you can view the 
+            details of your purchase in your account dashboard. Thank you for choosing Spice Garden!
+        </p>
+    </div>
+</div>
+<br>
+<br>
+{% endblock %}

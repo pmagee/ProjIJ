@@ -1,0 +1,41 @@
+{% extends 'base.html' %}
+{% block title %}Edit Profile | Spice Garden{% endblock title %}
+{% block content %}
+
+<br>
+<h1 class="text-center my_title">Edit Profile</h1>
+<br>
+<p>Please enter your detail, that you want to change.</p>
+
+<div class="form-group">
+    <form method="POST">
+        {% csrf_token %}
+        {{ form.as_p }}
+        <input class="btn btn-dark" type="submit" value="Edit my Profile">
+        {{ form.save }}
+    </form>
+</div>
+
+
+
+<br>
+<br>
+
+<h2 class="my_title">Your Profile Information</h2>
+<p><strong>Last Login:</strong> {{ user.last_login }}</p>
+<p><strong>Last Edit:</strong> {{ user.last_edit }}</p>
+<p><strong>User Name:</strong> {{ user.username }}</p>
+<p><strong>First Name:</strong> {{ user.first_name }}</p>
+<p><strong>Last Name:</strong> {{ user.last_name }}</p>
+<p><strong>Email Address:</strong> {{ user.email }}</p>
+<p><strong>Password:</strong> {{ user.password }}</p>
+<p><strong>Age:</strong> {{ user.age }}</p>
+<p><strong>Phone Number:</strong> {{ user.phone_number }}</p>
+<p><strong>Address:</strong> {{ user.address }}</p>
+<p><strong>Date Joined:</strong> {{ user.date_joined }}</p>
+
+<br>
+
+
+{% endblock content %}
+

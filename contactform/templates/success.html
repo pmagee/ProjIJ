@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% block title %}Contact Form Submitted.{% endblock title %}
+{% block content %}
+<div class="container">
+<br>
+<h1 class="text-center my_title">Your Contact Form Has Been Submitted....<br>Thank you for contacting us!</h1>
+<br>
+
+<p>Submission Contact Details:</p>
+<ul>
+    <li><strong>Date & Time:</strong> {{last_submission.date_time }}</li>
+    <li><strong>Subject:</strong> {{ last_submission.subject }}</li>
+    <li><strong>Message:</strong> {{ last_submission.message }}</li>
+
+</ul>
+
+</div>
+<br>
+{% endblock content %}

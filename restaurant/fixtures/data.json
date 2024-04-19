@@ -1,0 +1,497 @@
+[
+    {
+        "model": "restaurant.category",
+        "pk": "7f3cd29d-2aa9-4a6b-ba76-39a2ea1f523c",
+        "fields": {
+            "name": "Chinese",
+            "description": "Featuring a harmonious blend of flavors that reflects the rich diversity of Chinese cuisine.",
+            "image": "category/chinese.jpg"
+        }
+    },
+    {
+        "model": "restaurant.category",
+        "pk": "af81b9cc-0ab2-4f59-a491-a841d78a84ac",
+        "fields": {
+            "name": "Chef's special",
+            "description": "Experience culinary excellence with our chef's exclusive selection.",
+            "image": "category/chefspecial_27osu45.jpg"
+        }
+    },
+    {
+        "model": "restaurant.category",
+        "pk": "af82456d-23bf-475f-8481-acf2250c2a69",
+        "fields": {
+            "name": "Vegetarian",
+            "description": "Explore our artistry of plant-based perfection.",
+            "image": "category/vegetarian.jpg"
+        }
+    },
+    {
+        "model": "restaurant.category",
+        "pk": "c3b00599-6b6d-417e-8332-83ba0956c527",
+        "fields": {
+            "name": "Italian",
+            "description": "A symphony of flavors from classic pasta dishes to delectable pizzas, all crafted with authentic Italian passion.",
+            "image": "category/italian_SWO9qKp.jpg"
+        }
+    },
+    {
+        "model": "restaurant.category",
+        "pk": "fa86a03a-95c9-4f24-913c-4127ba6c1902",
+        "fields": {
+            "name": "Indian",
+            "description": "Savor authentic Indian flavors with our diverse menu of aromatic spices and traditional recipes.",
+            "image": "category/indian_1.jpg"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "0415ae76-0b44-48b9-80ca-333cec4cdea9",
+        "fields": {
+            "name": "Mango Coconut Panna Cotta",
+            "description": "A silky mango and coconut milk panna cotta, topped with fresh mango slices",
+            "price": "7.50",
+            "category": "af81b9cc-0ab2-4f59-a491-a841d78a84ac",
+            "image": "food/pannacotta.webp",
+            "stock": 20,
+            "available": true,
+            "created": "2024-02-26T21:32:04.620Z",
+            "updated": "2024-02-26T21:32:04.620Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "0463c753-fe9f-4f90-9f6e-c001e8b197df",
+        "fields": {
+            "name": "Fish Makhani",
+            "description": "A delicious combination of fish fillets and buttery gravy",
+            "price": "10.50",
+            "category": "fa86a03a-95c9-4f24-913c-4127ba6c1902",
+            "image": "food/fish-makhani.jpg",
+            "stock": 6,
+            "available": true,
+            "created": "2024-02-24T16:13:30.867Z",
+            "updated": "2024-03-07T16:12:48.971Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "12c5588b-ac21-4cfa-a722-6f0d5416d38c",
+        "fields": {
+            "name": "Aloo Gobi",
+            "description": "Potatoes cooked with cauliflower in spices, tomatoes, ginger & garlic",
+            "price": "8.50",
+            "category": "af82456d-23bf-475f-8481-acf2250c2a69",
+            "image": "food/aloo-gobi.jpg",
+            "stock": 10,
+            "available": true,
+            "created": "2024-02-24T21:12:58.987Z",
+            "updated": "2024-02-25T01:27:30.893Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "15960dbe-a2b8-418f-a301-7f4b7df92127",
+        "fields": {
+            "name": "Ossobuco",
+            "description": "Cooked low and slow until meltingly tender in a broth of meat stock, white wine & veggies",
+            "price": "14.50",
+            "category": "c3b00599-6b6d-417e-8332-83ba0956c527",
+            "image": "food/osso-buco.jpg",
+            "stock": 8,
+            "available": true,
+            "created": "2024-02-24T16:50:51.764Z",
+            "updated": "2024-02-26T23:52:16.196Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "1604e531-9a7c-43f4-b88b-38db22034dd3",
+        "fields": {
+            "name": "Sweet & Sour Pork",
+            "description": "Perfect balance of  sweet & tangy pork bites glazed in a flavorful sauce",
+            "price": "14.50",
+            "category": "7f3cd29d-2aa9-4a6b-ba76-39a2ea1f523c",
+            "image": "food/pork-chinese.jpg",
+            "stock": 10,
+            "available": true,
+            "created": "2024-02-24T19:11:29.090Z",
+            "updated": "2024-02-26T23:50:38.889Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "245156d0-833a-4576-aa0d-ac7fd5e75db5",
+        "fields": {
+            "name": "Sesame Noodles",
+            "description": "A perfect harmony of tender noodles coated in a savory sesame sauce",
+            "price": "9.50",
+            "category": "af82456d-23bf-475f-8481-acf2250c2a69",
+            "image": "food/sesame.jpg",
+            "stock": 12,
+            "available": true,
+            "created": "2024-02-24T21:35:13.312Z",
+            "updated": "2024-02-26T23:59:01.614Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "2ca3ac1a-efc7-452b-a7a0-909ee8d8e3ad",
+        "fields": {
+            "name": "Kung Pao Chicken",
+            "description": "A flavorful stir-fry featuring tender chicken, crunchy peanuts, and a slightly sweet sauce",
+            "price": "19.50",
+            "category": "7f3cd29d-2aa9-4a6b-ba76-39a2ea1f523c",
+            "image": "food/Kung-Pao-Chicken.jpg",
+            "stock": 9,
+            "available": true,
+            "created": "2024-02-24T19:05:24.388Z",
+            "updated": "2024-03-07T16:29:15.831Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "2dec28eb-4647-49b3-a770-1b986f547c06",
+        "fields": {
+            "name": "Arancini",
+            "description": "Crispy brown rice balls coated with breadcrumbs",
+            "price": "5.50",
+            "category": "c3b00599-6b6d-417e-8332-83ba0956c527",
+            "image": "food/Arancini.webp",
+            "stock": 10,
+            "available": true,
+            "created": "2024-02-24T16:54:34.734Z",
+            "updated": "2024-02-26T23:51:19.369Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "48a685d6-6202-401a-9d61-182a1119bfef",
+        "fields": {
+            "name": "Di San Xian",
+            "description": "Perfectly charred and crispy potatoes, eggplant & pepper stirred with a savory garlic sauce",
+            "price": "11.50",
+            "category": "af82456d-23bf-475f-8481-acf2250c2a69",
+            "image": "food/Di-San-Xian.jpg",
+            "stock": 10,
+            "available": true,
+            "created": "2024-02-24T21:42:35.255Z",
+            "updated": "2024-02-25T01:29:00.754Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "4c5c325e-6266-41cd-8401-eb863c20699c",
+        "fields": {
+            "name": "Palak Paneer",
+            "description": "Made with a rich, thick sauce consisting of pur�ed spinach mixed with numerous spices",
+            "price": "12.50",
+            "category": "af82456d-23bf-475f-8481-acf2250c2a69",
+            "image": "food/palakpaneer.jpg",
+            "stock": 10,
+            "available": true,
+            "created": "2024-02-24T21:18:51.830Z",
+            "updated": "2024-02-26T23:58:21.999Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "4e6ef6cc-6d7e-4508-b746-fbed5e1dd0b2",
+        "fields": {
+            "name": "Risotto",
+            "description": "Creamy rice dish cooked with meat broth",
+            "price": "9.50",
+            "category": "c3b00599-6b6d-417e-8332-83ba0956c527",
+            "image": "food/risotto-italian.jpg",
+            "stock": 10,
+            "available": true,
+            "created": "2024-02-24T16:41:20.873Z",
+            "updated": "2024-02-26T23:53:56.946Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "586be30d-b712-4aab-ba38-d018606294d5",
+        "fields": {
+            "name": "Eggplant Parmesan",
+            "description": "Crispy pan-fried eggplant slices layered with rich tomato sauce, melted mozzarella & Parmesan",
+            "price": "11.50",
+            "category": "af82456d-23bf-475f-8481-acf2250c2a69",
+            "image": "food/Eggplant-Parmesan.jpg",
+            "stock": 7,
+            "available": true,
+            "created": "2024-02-24T22:02:54.614Z",
+            "updated": "2024-03-07T16:29:15.782Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "61c00bec-a590-4342-b56d-697c85dafb21",
+        "fields": {
+            "name": "Chicken Tikka Masala",
+            "description": "Tandoor cooked chicken pieces simmered in tomato sauce with delicate spices",
+            "price": "11.50",
+            "category": "fa86a03a-95c9-4f24-913c-4127ba6c1902",
+            "image": "food/tikka-chicken.webp",
+            "stock": 10,
+            "available": true,
+            "created": "2024-02-24T15:49:22.955Z",
+            "updated": "2024-02-26T23:55:57.317Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "62f6693c-6d29-4270-8ab9-24f8a59ff8c2",
+        "fields": {
+            "name": "Hot Pot",
+            "description": "Cook your own fresh ingredients, creating a personalized, heartwarming feast at your table",
+            "price": "19.50",
+            "category": "7f3cd29d-2aa9-4a6b-ba76-39a2ea1f523c",
+            "image": "food/hot-pot.jpg",
+            "stock": 8,
+            "available": true,
+            "created": "2024-02-24T19:18:32.591Z",
+            "updated": "2024-02-25T01:30:04.791Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "65c4408d-f94c-400b-bcdc-a21c12d40072",
+        "fields": {
+            "name": "Tandoori Lamb Chops",
+            "description": "Tasty lamb chops marinated in a blend of yogurt and aromatic spices & grilled in a tandoor for a smoky flavor",
+            "price": "17.50",
+            "category": "af81b9cc-0ab2-4f59-a491-a841d78a84ac",
+            "image": "food/tandoori-lamb.jpg",
+            "stock": 8,
+            "available": true,
+            "created": "2024-02-26T21:44:11.799Z",
+            "updated": "2024-02-26T21:45:30.347Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "6edae53d-797b-40b0-aa18-eb1a4bfa1161",
+        "fields": {
+            "name": "Stir Fry Shrimp",
+            "description": "Fresh shrimp, garlic, ginger, scallions, and soy sauce stir fried in a wok",
+            "price": "12.50",
+            "category": "7f3cd29d-2aa9-4a6b-ba76-39a2ea1f523c",
+            "image": "food/shrimp-stir-fry.jpg",
+            "stock": 8,
+            "available": true,
+            "created": "2024-02-24T19:28:11.432Z",
+            "updated": "2024-02-25T01:35:39.116Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "77aeaf03-c925-498e-b68e-f033c79434f3",
+        "fields": {
+            "name": "Biryani",
+            "description": "Cooked in a saffron flavored rice,  accompanied by curry sauce",
+            "price": "14.50",
+            "category": "fa86a03a-95c9-4f24-913c-4127ba6c1902",
+            "image": "food/biryani-ind.jpg",
+            "stock": 20,
+            "available": true,
+            "created": "2024-02-24T16:00:59.395Z",
+            "updated": "2024-02-26T23:55:15.565Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "7847753c-e9e3-4148-97f3-f789c6b1828c",
+        "fields": {
+            "name": "Porotta & Beef Fry",
+            "description": "An iconic combo of Kerala beef fry served with delicious porotta",
+            "price": "13.50",
+            "category": "fa86a03a-95c9-4f24-913c-4127ba6c1902",
+            "image": "food/porotta.jpg",
+            "stock": 10,
+            "available": true,
+            "created": "2024-02-24T16:19:27.114Z",
+            "updated": "2024-02-25T01:33:52.610Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "8b1164ed-63df-4cbe-b69e-499bc4417933",
+        "fields": {
+            "name": "Pulihora",
+            "description": "Andhra style tamarind rice which has a perfect balance of tang, spice and salt",
+            "price": "11.50",
+            "category": "fa86a03a-95c9-4f24-913c-4127ba6c1902",
+            "image": "food/pulihora-ind.webp",
+            "stock": 10,
+            "available": true,
+            "created": "2024-02-24T16:28:57.350Z",
+            "updated": "2024-02-27T00:07:51.907Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "8e218a32-1551-4af8-8331-53a9b9b3a73a",
+        "fields": {
+            "name": "Ma Po Tofu",
+            "description": "Sichuan dish featuring silky tofu and minced meat in a  chili bean sauce",
+            "price": "13.50",
+            "category": "7f3cd29d-2aa9-4a6b-ba76-39a2ea1f523c",
+            "image": "food/Mapo-Tofu.jpg",
+            "stock": 15,
+            "available": true,
+            "created": "2024-02-24T19:22:52.076Z",
+            "updated": "2024-02-25T01:31:25.573Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "9d9e56e8-b70d-4001-af17-e1a4740affa6",
+        "fields": {
+            "name": "Spinach and Ricotta Stuffed Shells",
+            "description": "Pasta shells filled with a delicious mixture of spinach and ricotta cheese, baked in marinara sauce & melted mozzarella",
+            "price": "12.50",
+            "category": "af81b9cc-0ab2-4f59-a491-a841d78a84ac",
+            "image": "food/spinach-ricotta.jpg",
+            "stock": 10,
+            "available": true,
+            "created": "2024-02-26T21:25:08.653Z",
+            "updated": "2024-02-26T21:25:08.653Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "a113afd6-e3a9-4ce7-888f-6b1647d74ffc",
+        "fields": {
+            "name": "Zha Jiang Mian",
+            "description": "A savory noodle dish featuring minced pork or beef in a flavorful soybean sauce",
+            "price": "14.50",
+            "category": "7f3cd29d-2aa9-4a6b-ba76-39a2ea1f523c",
+            "image": "food/zha_jiang_mian.webp",
+            "stock": 15,
+            "available": true,
+            "created": "2024-02-24T19:43:11.101Z",
+            "updated": "2024-02-29T17:38:21.870Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "a68588af-3cbc-46d8-ac3d-00e54f08aa34",
+        "fields": {
+            "name": "Grilled Salmon with Citrus Glaze",
+            "description": "A succulent grilled salmon fillet topped with a zesty citrus glaze, served with a side of roasted vegetables",
+            "price": "15.50",
+            "category": "af81b9cc-0ab2-4f59-a491-a841d78a84ac",
+            "image": "food/grilled-salmon.jpg",
+            "stock": 18,
+            "available": true,
+            "created": "2024-02-26T21:18:34.121Z",
+            "updated": "2024-02-26T21:18:34.121Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "b349a03e-c77a-4f5e-879d-b28b6eeb5efb",
+        "fields": {
+            "name": "Chicken Alfredo Pasta",
+            "description": "Fettuccine pasta tossed in a creamy Alfredo sauce with grilled chicken, Parmesan cheese & fresh parsley",
+            "price": "18.50",
+            "category": "af81b9cc-0ab2-4f59-a491-a841d78a84ac",
+            "image": "food/Chicken-Alfredo.jpg",
+            "stock": 10,
+            "available": true,
+            "created": "2024-02-26T21:22:02.005Z",
+            "updated": "2024-02-26T21:22:02.005Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "b916cad0-5f15-4fb5-9e00-e6a750fb0335",
+        "fields": {
+            "name": "Gnocchi",
+            "description": "Fluffy and tender potato dumplings, served in a luscious sauce",
+            "price": "8.50",
+            "category": "af82456d-23bf-475f-8481-acf2250c2a69",
+            "image": "food/gnocchi.jpg",
+            "stock": 15,
+            "available": true,
+            "created": "2024-02-24T21:50:30.532Z",
+            "updated": "2024-02-25T01:29:47.588Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "bb48a236-7442-4ab2-abd5-68c401edc42d",
+        "fields": {
+            "name": "Spaghetti Carbonara",
+            "description": "A creamy dish made with Parmesan cheese, eggs, pepper, and olive oil with cured meat",
+            "price": "15.50",
+            "category": "c3b00599-6b6d-417e-8332-83ba0956c527",
+            "image": "food/carbonara.jpg",
+            "stock": 18,
+            "available": true,
+            "created": "2024-02-24T16:58:27.758Z",
+            "updated": "2024-02-25T01:35:23.049Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "d69407ba-e083-467f-8fbe-8d8a7437cd03",
+        "fields": {
+            "name": "Crispy Duck with Hoisin Sauce",
+            "description": "Crispy-skinned duck slices served with a rich and flavorful hoisin sauce. Accompanied by stir-fried vegetables",
+            "price": "19.50",
+            "category": "af81b9cc-0ab2-4f59-a491-a841d78a84ac",
+            "image": "food/duck-with-hoisin.jpg",
+            "stock": 8,
+            "available": true,
+            "created": "2024-02-26T21:28:01.040Z",
+            "updated": "2024-02-26T21:28:01.040Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "dfa79e23-c75a-4f97-9f07-2e7572495266",
+        "fields": {
+            "name": "Spaghetti Bolognese",
+            "description": "Spaghetti with an Italian rag� made with minced beef, bacon & tomatoes, served with Parmesan cheese",
+            "price": "17.50",
+            "category": "c3b00599-6b6d-417e-8332-83ba0956c527",
+            "image": "food/bolognese.jpg",
+            "stock": 10,
+            "available": true,
+            "created": "2024-02-24T18:40:56.559Z",
+            "updated": "2024-02-25T01:35:09.862Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "e93400d2-4b61-4e68-88c8-68367d48cb88",
+        "fields": {
+            "name": "Pizza Margherita",
+            "description": "A classic harmony of fresh tomato sauce, creamy mozzarella & fragrant basil atop a perfectly crisp crust",
+            "price": "14.50",
+            "category": "c3b00599-6b6d-417e-8332-83ba0956c527",
+            "image": "food/pizza-italian.jpg",
+            "stock": 20,
+            "available": true,
+            "created": "2024-02-24T17:05:19.516Z",
+            "updated": "2024-02-26T23:52:53.463Z"
+        }
+    },
+    {
+        "model": "restaurant.food",
+        "pk": "fea71291-2852-4dcd-9f7b-f625c5c3b7bf",
+        "fields": {
+            "name": "Lamb Korma",
+            "description": "Features tender lamb pieces cooked in a blend of aromatic spices and yogurt",
+            "price": "12.50",
+            "category": "fa86a03a-95c9-4f24-913c-4127ba6c1902",
+            "image": "food/lamb.jpg",
+            "stock": 8,
+            "available": true,
+            "created": "2024-02-24T15:55:59.866Z",
+            "updated": "2024-02-26T23:56:50.475Z"
+        }
+    }
+]
